@@ -1,0 +1,27 @@
+{
+    "name": "magenxcommerce/module-wishlist-analytics",
+    "description": "N/A",
+    "require": {
+        "php": "~7.3.0||~7.4.0",
+        "magenxcommerce/framework": "103.0.*",
+        "magenxcommerce/module-wishlist": "101.2.*",
+        "magenxcommerce/module-analytics": "100.4.*"
+    },
+    "type": "magento2-module",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Magento\\WishlistAnalytics\\": ""
+        }
+    },
+    "version": "100.4.0",
+    "replace": {
+        "magento/module-wishlist-analytics": "*"
+    }
+}
